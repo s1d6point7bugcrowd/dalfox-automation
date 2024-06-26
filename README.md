@@ -38,6 +38,9 @@ Make the script executable: chmod +x dalfox-auto.sh.
 Run the script: ./dalfox-auto.sh.
 
 
+****To respect a rate limit of no more than 5 requests per second, you need to set appropriate delays and adjust the worker count in the script. We can use dalfox's --delay option to introduce a delay between requests.****  eg: dalfox pipe --delay 200 --worker 5 | tee result.txt (This is not set as default)
+
+
 
 Explanation
 
