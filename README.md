@@ -6,6 +6,8 @@ This script automates the process of discovering and scanning URLs for XSS vulne
 
 Make sure you have the following tools installed on your system:
 
+https://github.com/1ndianl33t/Gf-Patterns
+
 - `subfinder`
 - `httpx`
 - `gospider`
