@@ -15,8 +15,8 @@ NC='\033[0m' # No Color
 spinner() {
   local pid=$1
   local delay=0.2
-  # Our "spinning skull" frames
-  local spinstr='💀☠🦴👻'
+  # Remove the ghost '👻' and keep the others
+  local spinstr='💀☠🦴'
   
   # Hide the cursor
   tput civis
