@@ -15,7 +15,7 @@ NC='\033[0m' # No Color
 spinner() {
   local pid=$1
   local delay=0.2
-  # Remove the ghost '👻' and keep the others
+  
   local spinstr='💀☠🦴'
   
   # Hide the cursor
